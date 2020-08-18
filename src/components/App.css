@@ -1,0 +1,109 @@
+body {
+    font-family: "Poiret One", cursive;
+    background-color: tomato;
+}
+
+.footer {
+    position: absolute;
+    margin-top: -150px;
+    height: 150px;
+    padding-top: 100vh;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer a {
+    color: #53806c;
+}
+
+#mainContainer {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#timerInfo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#progressSquares {
+    width: 48vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#settings {
+    /* position: absolute; */
+    /* top: 50%;
+    left: 30%; */
+    /* transform: translate(-50%, -50%); */
+    background-color: rgba(30, 30, 30, 0.3);
+}
+
+.reversedRow {
+    flex-direction: row-reverse;
+}
+
+#start_stop {
+    height: 24vw;
+    width: 24vw;
+    border: 1px solid #ff6347;
+    color: white;
+}
+
+#btnIcn {
+    margin: 2vh;
+}
+
+.progressSquare {
+    height: 12vw;
+    width: 12vw;
+    border: 1px solid tomato;
+}
+
+.progressSquareDark {
+    background-color: #173327;
+}
+
+.progressSquareLight {
+    background-color: #53806c;
+}
+
+#timer-label,
+#time-left {
+    font-weight: 800;
+    font-size: 4vw;
+}
+
+#settingCollapse:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 970px) {
+    #progressSquares {
+        width: 24vw;
+    }
+    .progressSquare {
+        height: 6vw;
+    }
+    #start_stop {
+        width: 12vw;
+        height: 12vw;
+    }
+    #btnIcn {
+        margin: 2vh;
+        color: tomato;
+    }
+    #timer-label,
+    #time-left {
+        font-weight: 800;
+        font-size: 1.5em;
+    }
+}
