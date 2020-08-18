@@ -10,7 +10,7 @@ const App = () => {
       <div className="footer">
         <i>
           Designed and{" "}
-          <a href="" target="_blank">
+          <a href="https://github.com/mtarhini/Pomodoro-clock" target="_blank">
             developed
           </a>{" "}
           by Tarhini Mohamad
